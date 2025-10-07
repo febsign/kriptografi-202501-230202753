@@ -2,8 +2,8 @@
 Minggu ke-: X  
 Topik: [judul praktikum]  
 Nama: FAVIAN RIZKY FEBRIANSYAH
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+NIM: [230202753]  
+Kelas: [5IKRB]  
 
 ---
 
@@ -16,7 +16,9 @@ Kelas: [Kelas]
 (Ringkas teori relevan (cukup 2–3 paragraf).  
 Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 
----
+Cipher klasik merujuk pada algoritma enkripsi yang digunakan pada masa sebelum era komputer modern, di mana operasi penyandian dan penyahsandian (enkripsi dan dekripsi) dilakukan secara manual atau menggunakan alat mekanik sederhana. Metode ini beroperasi pada tingkat abjad, menangani teks sebagai urutan huruf tunggal, dan umumnya terbagi menjadi dua kategori utama: cipher substitusi dan cipher transposisi. Dalam substitusi, setiap huruf dalam plaintext (teks asli) diganti dengan huruf atau simbol lain (contohnya Caesar Cipher dan Vigenère Cipher), sedangkan dalam transposisi, urutan huruf-huruf diatur ulang atau diacak (contohnya Rail Fence Cipher). Keamanan dari cipher klasik ini sangat bergantung pada kerahasiaan kunci yang digunakan dan seringkali rentan terhadap teknik analisis frekuensi atau serangan brute force karena kompleksitasnya yang relatif rendah. 
+
+Meskipun secara historis penting, cipher klasik saat ini tidak dianggap aman untuk komunikasi sensitif karena mudah dipecahkan dengan metode komputasi modern. Mereka membentuk dasar dari studi kriptografi dan berfungsi sebagai alat pedagogis yang baik untuk memahami konsep dasar enkripsi, kunci, dan serangan kriptanalisis. Secara inheren, mereka menunjukkan prinsip dasar bahwa enkripsi adalah proses matematis mengubah data yang dapat dibaca menjadi format yang tidak dapat dibaca oleh siapa pun tanpa kunci yang tepat, menggunakan teknik yang melibatkan aritmetika modular (khususnya untuk cipher substitusi) atau manipulasi posisi (untuk cipher transposisi) dalam batasan alfabet.
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
