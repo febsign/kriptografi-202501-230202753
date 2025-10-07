@@ -1,7 +1,7 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
 Topik: [judul praktikum]  
-Nama: FAVIAN
+Nama: FAVIA
 NIM: [NIM Mahasiswa]  
 Kelas: [Kelas]  
 
