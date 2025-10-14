@@ -1,5 +1,5 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
+Minggu ke-: 1 
 Topik: [Sejarah Kriptografi & Prinsip CIA]  
 Nama: FAVIAN RIZKY FEBRIANSYAH
 NIM: [230202753]  
@@ -65,7 +65,7 @@ def encrypt(text, key):
 Hasil eksekusi program Caesar Cipher:
 
 ![Hasil Eksekusi](screenshots/hasil_eksekusi.png)
-![Hasil Input](screenshots/input.png)
+![Hasil Input](screenshots/hasil_input.png)
 ![Hasil Output](screenshots/output.png)
 )
 
