@@ -57,6 +57,8 @@ ECC: (Versi asimetris yang lebih efisien).
 
 PQC & ZKP: (Antisipasi kuantum dan peningkatan privasi).
 
+
+
 Tiga pilar keamanan informasi (Prinsip CIA):
 
 Confidentiality (Kerahasiaan):
