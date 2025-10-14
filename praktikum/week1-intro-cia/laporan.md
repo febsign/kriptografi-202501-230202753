@@ -66,7 +66,7 @@ Hasil eksekusi program Caesar Cipher:
 
 ![Hasil Eksekusi](screenshots/hasil_eksekusi.png)
 ![Hasil Input](screenshots/hasil_input.png)
-![Hasil Output](screenshots/output.png)
+![Hasil Output](screenshots/hasil_output.png)
 )
 
 ---
