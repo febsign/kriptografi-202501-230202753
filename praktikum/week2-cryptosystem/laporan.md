@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
+Minggu ke-: 2  
 Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: [FAVIAN RIZKY FEBRIANSYAH]  
+NIM: [230202753]  
+Kelas: [5IKRB]  
 
 ---
 

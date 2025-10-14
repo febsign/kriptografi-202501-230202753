@@ -22,9 +22,60 @@ Menyiapkan repositori GitHub sebagai media kerja praktikum.
 (Ringkas teori relevan (cukup 2–3 paragraf).  
 Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 
-Cipher klasik merujuk pada algoritma enkripsi yang digunakan pada masa sebelum era komputer modern, di mana operasi penyandian dan penyahsandian (enkripsi dan dekripsi) dilakukan secara manual atau menggunakan alat mekanik sederhana. Metode ini beroperasi pada tingkat abjad, menangani teks sebagai urutan huruf tunggal, dan umumnya terbagi menjadi dua kategori utama: cipher substitusi dan cipher transposisi. Dalam substitusi, setiap huruf dalam plaintext (teks asli) diganti dengan huruf atau simbol lain (contohnya Caesar Cipher dan Vigenère Cipher), sedangkan dalam transposisi, urutan huruf-huruf diatur ulang atau diacak (contohnya Rail Fence Cipher). Keamanan dari cipher klasik ini sangat bergantung pada kerahasiaan kunci yang digunakan dan seringkali rentan terhadap teknik analisis frekuensi atau serangan brute force karena kompleksitasnya yang relatif rendah. 
+Ringkasan Sejarah dan Evolusi Kriptografi
+Kriptografi terbagi dalam tiga era utama:
 
-Meskipun secara historis penting, cipher klasik saat ini tidak dianggap aman untuk komunikasi sensitif karena mudah dipecahkan dengan metode komputasi modern. Mereka membentuk dasar dari studi kriptografi dan berfungsi sebagai alat pedagogis yang baik untuk memahami konsep dasar enkripsi, kunci, dan serangan kriptanalisis. Secara inheren, mereka menunjukkan prinsip dasar bahwa enkripsi adalah proses matematis mengubah data yang dapat dibaca menjadi format yang tidak dapat dibaca oleh siapa pun tanpa kunci yang tepat, menggunakan teknik yang melibatkan aritmetika modular (khususnya untuk cipher substitusi) atau manipulasi posisi (untuk cipher transposisi) dalam batasan alfabet.
+Era Klasik:
+
+Basis: Karakter (huruf).
+
+Metode: Substitusi (misalnya, Caesar Cipher) dan Transposisi (misalnya, Vigenère Cipher).
+
+Kelemahan: Mudah dipecahkan dengan analisis frekuensi.
+
+Era Modern:
+
+Basis: Bit (0 dan 1) dan Matematika kompleks.
+
+Algoritma: Dibagi menjadi:
+
+Simetris: Satu kunci (shared secret), misalnya AES (cepat, untuk enkripsi data).
+
+Asimetris/Publik: Dua kunci (publik dan privat), misalnya RSA (untuk tanda tangan dan pertukaran kunci).
+
+Tujuan: Mencapai keamanan komputasi tinggi.
+
+Era Kontemporer:
+
+Fokus: Menciptakan sistem kepercayaan terdesentralisasi dan privasi.
+
+Evolusi: Penggunaan kriptografi untuk:
+
+Blockchain/Cryptocurrency: (Menggunakan hashing dan tanda tangan digital untuk imutabilitas).
+
+ECC: (Versi asimetris yang lebih efisien).
+
+PQC & ZKP: (Antisipasi kuantum dan peningkatan privasi).
+
+Tiga pilar keamanan informasi (Prinsip CIA):
+
+Confidentiality (Kerahasiaan):
+
+Tujuan: Mencegah akses oleh pihak tidak berwenang.
+
+Kunci: Enkripsi dan Kontrol Akses.
+
+Integrity (Integritas):
+
+Tujuan: Menjaga keutuhan dan keakuratan data dari modifikasi tidak sah.
+
+Kunci: Hashing dan Tanda Tangan Digital.
+
+Availability (Ketersediaan):
+
+Tujuan: Memastikan pengguna yang berhak dapat mengakses sistem dan data kapan pun diperlukan.
+
+Kunci: Redundancy dan perlindungan terhadap serangan (misalnya DDoS).
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
