@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 2  
-Topik: [judul praktikum]  
+Topik: [Cryptosystem (Komponen, Enkripsi & Dekripsi, Simetris & Asimetris)]  
 Nama: [FAVIAN RIZKY FEBRIANSYAH]  
 NIM: [230202753]  
 Kelas: [5IKRB]  
