@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
+Minggu ke-: 5  
+Topik: [Cipher Klasik (Caesar, Vigenère, Transposisi)]  
 Nama: [Favian Rizky Febriansyah]  
 NIM: [230202753]  
 Kelas: [5IKRB]  
@@ -73,7 +73,7 @@ Hasil eksekusi program Caesar Cipher:
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
 - Pertanyaan 1: … 
- 
+
 - Pertanyaan 2: …  
 )
 ---
