@@ -70,8 +70,31 @@ Hasil eksekusi program Caesar Cipher:
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
+- Pertanyaan 1: 🔑 Kriptosistem Simetris (Kunci Rahasia)
+Prinsip Kunci: Menggunakan satu kunci yang sama untuk proses Enkripsi dan Dekripsi. Kunci ini harus dirahasiakan oleh kedua belah pihak (pengirim dan penerima). *
+
+Kecepatan: Jauh lebih cepat dalam memproses data dalam jumlah besar.
+
+Contoh Algoritma: AES (Advanced Encryption Standard), DES, Triple DES.
+
+Kelemahan Utama: Masalah dalam distribusi kunci (bagaimana cara mengirim kunci rahasia secara aman kepada pihak lain).
+
+🗝️ Kriptosistem Asimetris (Kunci Publik)
+Prinsip Kunci: Menggunakan sepasang kunci yang terkait secara matematis:
+
+Kunci Publik (Public Key): Digunakan untuk Enkripsi dan dapat dibagikan secara terbuka.
+
+Kunci Privat (Private Key): Digunakan untuk Dekripsi dan harus dijaga kerahasiaannya oleh pemiliknya.
+
+Kecepatan: Lebih lambat dibandingkan simetris karena melibatkan perhitungan matematika yang lebih kompleks.
+
+Contoh Algoritma: RSA, ECC (Elliptic Curve Cryptography), ElGamal.
+
+Keuntungan Utama: Mengatasi masalah distribusi kunci dan menyediakan fitur seperti Tanda Tangan Digital (digital signatures).
+
+- Pertanyaan 2:  Kriptosistem Simetris (Symmetric)Kelebihan (+)Kelemahan (-)Sangat Cepat (Ideal untuk enkripsi data dalam jumlah besar).Masalah Distribusi Kunci (Kunci harus dikirim secara rahasia sebelum komunikasi).Algoritma lebih sederhana dan efisien secara komputasi.Tidak Scalable (Setiap pasangan pengguna harus memiliki kunci uniknya sendiri).Ukuran kunci relatif pendek (e.g., 128-bit AES).Tidak mendukung Non-Repudiation (tidak bisa membuktikan siapa pengirimnya secara unik).2. Kriptosistem Asimetris (Asymmetric)Kelebihan (+)Kelemahan (-)Tidak ada masalah distribusi kunci (Kunci publik dapat dibagikan secara terbuka).Sangat Lambat (Membutuhkan daya komputasi yang tinggi, jauh lebih lambat dari simetris).Mendukung Tanda Tangan Digital, Otentikasi, dan Non-Repudiation.Ukuran kunci sangat panjang (e.g., 2048-bit RSA).Lebih Scalable (Hanya satu pasangan kunci publik/privat per pengguna).Kompleksitas manajemen kunci privat.
+
+- Pertanyaan 3: Distribusi kunci menjadi masalah utama dalam kriptografi simetris karena dua alasan kunci:1. Kunci Harus Rahasia SepenuhnyaMasalah Inti: Dalam kriptografi simetris, kunci yang digunakan untuk mengenkripsi pesan sama persis dengan kunci yang digunakan untuk mendekripsi pesan .Implikasi: Kunci tersebut harus dikirim dari pengirim ke penerima melalui saluran yang benar-benar aman dan rahasia sebelum komunikasi terenkripsi dimulai. Jika kunci dicegat, semua pesan yang dienkripsi menggunakan kunci tersebut akan terkompromi.2. Skalabilitas yang Buruk (Jaringan Besar)Masalah Logistik: Jika ada $N$ orang yang ingin berkomunikasi secara aman satu sama lain, setiap pasangan harus memiliki kunci rahasia uniknya sendiri.Jumlah Kunci: Jumlah total kunci yang dibutuhkan bertambah secara eksponensial ($N(N-1)/2$). Dalam jaringan besar, mengelola, menyimpan, dan mendistribusikan ribuan kunci unik secara fisik atau melalui saluran aman menjadi tidak praktis dan mahal.Singkatnya, kelemahan mendasar dari sistem simetris adalah tidak adanya metode bawaan yang aman dan efisien untuk mengirimkan kunci rahasia yang menjadi pondasi keamanannya.
 )
 ---
 
