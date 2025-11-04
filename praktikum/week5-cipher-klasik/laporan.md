@@ -63,18 +63,21 @@ def encrypt(text, key):
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
+![Hasil Eksekusi](Screenshots/hasil_eksekusi.png)
+![Hasil Input](Screenshots/input.png)
+
 )
 
 ---
-
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: … 
+- Pertanyaan 1: 🔑 Caesar Cipher
+Kelemahan Utama: Jumlah kunci sangat terbatas (hanya 25 kemungkinan) dan mudah dipecahkan dengan serangan brute-force atau analisis frekuensi karena pergeseran huruf selalu tetap (monoalfabetik).
 
-- Pertanyaan 2: …  
+🔐 Vigenère Cipher
+Kelemahan Utama: Kunci berulang jika panjang kunci lebih pendek dari pesan. Pengulangan ini menciptakan pola yang dapat dieksploitasi menggunakan Uji Kasiski atau analisis frekuensi yang dimodifikasi untuk menemukan panjang kunci, setelah itu sandi menjadi serangkaian sandi Caesar. 
+
+- Pertanyaan 2: 
 )
 ---
 
