@@ -1,14 +1,21 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
 Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: [Favian Rizky Febriansyah]  
+NIM: [230202753]  
+Kelas: [5IKRB]  
 
 ---
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Tujuan Pembelajaran
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
+
+1.Menerapkan algoritma Caesar Cipher untuk enkripsi dan dekripsi teks.
+2.Menerapkan algoritma Vigenère Cipher dengan variasi kunci.
+3.Mengimplementasikan algoritma transposisi sederhana.
+4.Menjelaskan kelemahan algoritma kriptografi klasik.
 
 ---
 
@@ -65,7 +72,8 @@ Hasil eksekusi program Caesar Cipher:
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
+- Pertanyaan 1: … 
+ 
 - Pertanyaan 2: …  
 )
 ---
