@@ -1,14 +1,25 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
+Minggu ke-: 4  
 Topik: [Entropy & Unicity Distance (Evaluasi Kekuatan Kunci dan Brute Force)]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: [Favian Rizky Febriansyah]  
+NIM: [230202753]  
+Kelas: [5IKRB]  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
+
+1.Menyelesaikan perhitungan sederhana terkait entropi kunci.
+
+2.Menggunakan teorema Euler pada contoh perhitungan modular & invers.
+
+3.Menghitung unicity distance untuk ciphertext tertentu.
+
+4.Menganalisis kekuatan kunci berdasarkan entropi dan unicity distance.
+
+5.Mengevaluasi potensi serangan brute force pada kriptosistem sederhana.
+
 
 ---
 
@@ -56,7 +67,7 @@ def encrypt(text, key):
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
+![Hasil Eksekusi](screenshots/hasil_eksekusi.png)
 ![Hasil Input](screenshots/input.png)
 ![Hasil Output](screenshots/output.png)
 )
