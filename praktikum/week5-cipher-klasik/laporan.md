@@ -20,9 +20,7 @@ Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
-
+📜 Teori Cipher KlasikCipher Klasik adalah metode enkripsi awal yang bekerja pada karakter.1. Jenis UtamaJenisMekanismeKelemahan KunciContohSubstitusiMengganti huruf (A jadi D).Analisis Frekuensi (pola huruf terbanyak terlihat).Caesar, Vigenère.TransposisiMengubah Posisi/Urutan huruf.Frekuensi huruf tetap sama dengan aslinya.Rail Fence, Kolom.2. Kelemahan Umum Semua cipher klasik rentan karena gagal mengaburkan pola statistik alami bahasa manusia.
 ---
 
 ## 3. Alat dan Bahan
@@ -77,12 +75,32 @@ Kelemahan Utama: Jumlah kunci sangat terbatas (hanya 25 kemungkinan) dan mudah d
 🔐 Vigenère Cipher
 Kelemahan Utama: Kunci berulang jika panjang kunci lebih pendek dari pesan. Pengulangan ini menciptakan pola yang dapat dieksploitasi menggunakan Uji Kasiski atau analisis frekuensi yang dimodifikasi untuk menemukan panjang kunci, setelah itu sandi menjadi serangkaian sandi Caesar. 
 
-- Pertanyaan 2: 
+- Pertanyaan 2: Cipher klasik, terutama yang bersifat monoalfabetik (seperti Caesar Cipher), mudah diserang karena mereka:
+
+Mempertahankan Pola Bahasa: Sandi-sandi ini gagal mengubah atau menyamarkan frekuensi kemunculan huruf-huruf pada teks asli (plaintext).
+
+Korelasi Langsung: Huruf yang paling sering muncul di plaintext (misalnya, huruf 'E' dalam bahasa Inggris) akan selalu menjadi huruf yang paling sering muncul di ciphertext.
+
+Dengan membandingkan frekuensi huruf pada teks tersandi (ciphertext) dengan tabel frekuensi standar suatu bahasa , kriptanalis dapat dengan mudah mengidentifikasi penggantian yang terjadi dan memecahkan sandi tersebut.
+
+- Pertanyaan 3: Kesimpulan Singkat
+Substitusi Cipher: Baik dalam menyembunyikan identitas huruf, tetapi rentan pada pola frekuensi.
+
+Transposisi Cipher: Baik dalam menyembunyikan posisi huruf, tetapi sangat rentan karena frekuensi huruf tidak berubah.
 )
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+📝 Kesimpulan Percobaan Cipher Klasik
+Percobaan dengan Cipher Klasik menunjukkan bahwa algoritma-algoritma ini, meskipun sederhana untuk diimplementasikan, memiliki tingkat keamanan yang sangat rendah di era modern.
+
+Inti Permasalahan: Cipher Klasik gagal mencapai keamanan yang memadai karena mereka tidak efektif dalam mengaburkan pola statistik (frekuensi huruf) dari bahasa alami.
+
+Hasil Kriptanalisis: Mereka mudah dipecahkan menggunakan teknik kriptanalisis yang relatif sederhana, seperti Analisis Frekuensi (untuk Substitusi Cipher) dan Uji Kasiski (untuk Cipher Polialfabetik seperti Vigenère).
+
+Pentingnya Kombinasi: Untuk keamanan yang lebih baik, diperlukan penggabungan antara metode Substitusi (mengubah huruf) dan Transposisi (mengubah posisi) untuk menciptakan super enkripsi yang lebih sulit dipecahkan.
+
+Kesimpulannya, cipher klasik kini hanya cocok untuk tujuan edukasi atau enkripsi data dengan kebutuhan keamanan yang sangat minimal.
 
 ---
 
